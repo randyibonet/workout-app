@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f6f2" />
+    <title>Mi Estudio de Entrenamiento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="selection-screen" class="screen home-screen">
+      <header class="brand"><span class="brand-icon">✦</span> FORMA</header>
+
+      <section class="welcome">
+        <p class="eyebrow">Tu estudio personal</p>
+        <h1>¿Qué toca <em>hoy?</em></h1>
+        <p>Elige una sesión. Nosotros elegimos los ejercicios, marcamos el ritmo y contamos cada descanso.</p>
+      </section>
+
+      <section id="day-list" class="day-list" aria-label="Días de entrenamiento"></section>
+
+      <footer class="home-footer">
+        <span><i></i> Listo para entrenar</span>
+        <span>Duración estimada: ~45 min</span>
+      </footer>
+    </main>
+
+    <main id="preparation-screen" class="screen preparation-screen hidden">
+      <header class="player-header">
+        <button id="prep-back-button" class="text-button">← Volver</button>
+        <div class="brand small"><span class="brand-icon">✦</span> FORMA</div>
+        <span></span>
+      </header>
+
+      <section class="preparation-content">
+        <div class="prep-heading">
+          <div>
+            <p class="eyebrow">Antes de empezar</p>
+            <h1>Prepara tu<br /><em>entrenamiento.</em></h1>
+          </div>
+          <p>Esta es la selección de hoy. Revisa las demostraciones y el orden antes de iniciar el temporizador.</p>
+        </div>
+
+        <ol id="session-preview" class="session-preview"></ol>
+
+        <div class="prep-actions">
+          <p><strong id="prep-count">9 ejercicios</strong><span id="prep-duration">~45 minutos</span></p>
+          <button id="begin-button" class="begin-button">Todo listo, empezar →</button>
+        </div>
+      </section>
+    </main>
+
+    <main id="player-screen" class="screen player-screen hidden">
+      <header class="player-header">
+        <button id="end-button" class="text-button">Terminar</button>
+        <div class="brand small"><span class="brand-icon">✦</span> FORMA</div>
+        <span class="sound-label">♫ Sonido activo</span>
+      </header>
+
+      <section class="player-content">
+        <div class="exercise-title">
+          <div>
+            <p id="block-name" class="eyebrow"></p>
+            <h1 id="exercise-name"></h1>
+          </div>
+          <p class="exercise-position"><strong id="exercise-number">1</strong> / <span id="exercise-total">9</span></p>
+        </div>
+
+        <div class="training-area">
+          <div class="media-card">
+            <video id="exercise-video" class="hidden" muted loop playsinline></video>
+            <img id="exercise-image" class="hidden" alt="" />
+            <div id="media-fallback" class="media-fallback">
+              <div class="rings"></div>
+              <div class="person">
+                <i class="head"></i><i class="body"></i>
+                <i class="arm arm-left"></i><i class="arm arm-right"></i>
+                <i class="leg leg-left"></i><i class="leg leg-right"></i>
+              </div>
+              <span>Demostración</span>
+            </div>
+            <span id="set-badge" class="set-badge">Serie 1 de 3</span>
+          </div>
+
+          <aside class="timer-column">
+            <div id="timer-ring" class="timer-ring">
+              <div>
+                <span id="timer-label">Tiempo</span>
+                <strong id="seconds">40</strong>
+                <small>segundos</small>
+              </div>
+            </div>
+            <div class="goal">
+              <span>Tu objetivo</span>
+              <strong id="reps"></strong>
+              <small id="details"></small>
+            </div>
+            <div id="up-next" class="up-next hidden">
+              <span>A continuación</span>
+              <strong id="next-exercise-name"></strong>
+              <small id="next-exercise-detail"></small>
+            </div>
+          </aside>
+        </div>
+
+        <nav class="controls" aria-label="Controles del entrenamiento">
+          <button id="previous-button" aria-label="Ejercicio anterior">← <span>Anterior</span></button>
+          <button id="play-button" class="play-button" aria-label="Reproducir">▶</button>
+          <button id="next-button" aria-label="Siguiente ejercicio"><span>Siguiente</span> →</button>
+        </nav>
+      </section>
+
+      <footer class="player-footer">
+        <div class="session-bar"><i id="session-progress"></i></div>
+        <span>Tiempo restante</span>
+        <strong id="total-time">00:00</strong>
+        <div class="current-day"><b id="current-day"></b><small id="current-focus"></small></div>
+      </footer>
+    </main>
+
+    <main id="complete-screen" class="screen complete-screen hidden">
+      <section class="complete-card">
+        <span class="complete-icon">✦</span>
+        <p class="eyebrow">Sesión finalizada</p>
+        <h1>¡Rutina<br /><em>completada!</em></h1>
+        <p>Hoy elegiste aparecer. El progreso se construye exactamente así.</p>
+        <div class="complete-stats">
+          <div><strong id="completed-count">9</strong><span>ejercicios</span></div>
+          <div><strong id="completed-day">Día 1</strong><span>sesión terminada</span></div>
+        </div>
+        <button id="home-button" class="home-button">Volver al inicio →</button>
+      </section>
+    </main>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

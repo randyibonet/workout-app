@@ -1,0 +1,1576 @@
+{
+    "D1": [
+        {
+            "bloque": "1. Movilidad",
+            "ejercicios": [
+                {
+                    "name": "Abduction Rotation",
+                    "media": "assets/Abduction Rotation.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Hips; Mobility"
+                },
+                {
+                    "name": "Hip Flexor Stretch Chop",
+                    "media": "assets/Hip Flexor Stretch Chop.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Mobility; Core; Hips"
+                }
+            ]
+        },
+        {
+            "bloque": "2. Fuerza Principal",
+            "ejercicios": [
+                {
+                    "name": "Abduction Deadlift",
+                    "media": "assets/Abduction Deadlift.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Glutes; Hamstrings"
+                },
+                {
+                    "name": "American Kettlebell Swings",
+                    "media": "assets/American Kettlebell Swings.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Glutes; Hamstrings"
+                },
+                {
+                    "name": "Barbell Push Press",
+                    "media": "assets/Barbell Push Press.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Full Body"
+                },
+                {
+                    "name": "Crossbody Split Stance Deadlift",
+                    "media": "assets/Crossbody Split Stance Deadlift.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Glutes; Hamstrings"
+                },
+                {
+                    "name": "Depth push ups",
+                    "media": "assets/Depth push ups.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Chest; Upper Body"
+                },
+                {
+                    "name": "Dual Floor Press",
+                    "media": "assets/Dual Floor Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Chest; Upper Body"
+                },
+                {
+                    "name": "Dual Rack Strict Press",
+                    "media": "assets/Dual Rack Strict Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Upper Body"
+                },
+                {
+                    "name": "Dumbbell RDL",
+                    "media": "assets/Dumbbell RDL.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Hamstrings; Glutes"
+                },
+                {
+                    "name": "Feet Elevated Depth Push Ups",
+                    "media": "assets/Feet Elevated Depth Push Ups.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Chest; Upper Body"
+                },
+                {
+                    "name": "Half Kneeling Press",
+                    "media": "assets/Half Kneeling Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Shoulders; Upper Body"
+                },
+                {
+                    "name": "Heavy Alternating Press",
+                    "media": "assets/Heavy Alternating Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Shoulders; Chest; Upper Body"
+                },
+                {
+                    "name": "Kang Squat",
+                    "media": "assets/Kang Squat.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Lower Body; Hamstrings; Glutes"
+                },
+                {
+                    "name": "Landmine press",
+                    "media": "assets/Landmine press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Shoulders; Chest; Upper Body"
+                },
+                {
+                    "name": "SA Incline Chest Press",
+                    "media": "assets/SA Incline Chest Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Chest; Upper Body"
+                },
+                {
+                    "name": "SA Kettlebell Chest Press",
+                    "media": "assets/SA Kettlebell Chest Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Chest; Upper Body"
+                },
+                {
+                    "name": "Seated Press",
+                    "media": "assets/Seated Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Upper Body"
+                },
+                {
+                    "name": "Seated Wall Z Press",
+                    "media": "assets/Seated Wall Z Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Upper Body"
+                },
+                {
+                    "name": "Single Arm swings",
+                    "media": "assets/Single Arm swings.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Glutes; Core"
+                },
+                {
+                    "name": "Single Leg RDL",
+                    "media": "assets/Single Leg RDL.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Hamstrings; Glutes"
+                },
+                {
+                    "name": "Split stance kettlebell press",
+                    "media": "assets/Split stance kettlebell press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Shoulders; Legs"
+                },
+                {
+                    "name": "Staggered Deadlift",
+                    "media": "assets/Staggered Deadlift.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Hamstrings; Glutes"
+                },
+                {
+                    "name": "Suitcase deadlift",
+                    "media": "assets/Suitcase deadlift.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Hamstrings; Glutes; Core"
+                },
+                {
+                    "name": "Suitcase press",
+                    "media": "assets/Suitcase press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Shoulders; Core; Upper Body"
+                },
+                {
+                    "name": "Sumo Deadlift",
+                    "media": "assets/Sumo Deadlift.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Hamstrings; Glutes; Legs"
+                },
+                {
+                    "name": "Swing snatch",
+                    "media": "assets/Swing snatch.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Shoulders; Glutes"
+                },
+                {
+                    "name": "Weighted Decline Deficit Push-Up",
+                    "media": "assets/Weighted Decline Deficit Push-Up.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Chest; Upper Body"
+                },
+                {
+                    "name": "Weighted dips",
+                    "media": "assets/Weighted dips.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Chest; Triceps; Upper Body"
+                },
+                {
+                    "name": "Z press",
+                    "media": "assets/Z press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Core; Upper Body"
+                }
+            ]
+        },
+                {
+            "bloque": "3. Accesorios",
+            "ejercicios": [
+                {
+                    "name": "Band Good morning",
+                    "media": "assets/Band Good morning.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Hamstrings; Glutes"
+                },
+                {
+                    "name": "KB Glute Bridge Floor Press",
+                    "media": "assets/KB Glute Bridge Floor Press.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Glutes"
+                },
+                {
+                    "name": "KB Seated Bridge Press",
+                    "media": "assets/KB Seated Bridge Press.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Glutes"
+                },
+                {
+                    "name": "Copenhague dips",
+                    "media": "assets/Copenhague dips.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Chest; Triceps; Upper Body"
+                },
+                {
+                    "name": "Good mornings",
+                    "media": "assets/Good mornings.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Hamstrings; Glutes"
+                },
+                {
+                    "name": "Hip abduction",
+                    "media": "assets/Hip abduction.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Glutes; Hips"
+                },
+                {
+                    "name": "Kettlebell Pull throughs",
+                    "media": "assets/Kettlebell Pull throughs.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Glutes; Hamstrings"
+                },
+                {
+                    "name": "Kneeling KB Lift",
+                    "media": "assets/Kneeling KB Lift.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Shoulders"
+                },
+                {
+                    "name": "Lateral Raises - Shoulders",
+                    "media": "assets/Lateral Raises - Shoulders.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Upper Body"
+                },
+                {
+                    "name": "Reverse Slider Lunge",
+                    "media": "assets/Reverse Slider Lunge.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Hamstrings"
+                },
+                {
+                    "name": "Single-Arm Staggered Kettlebell Curl",
+                    "media": "assets/Single-Arm Staggered Kettlebell Curl.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Tuck Dips on Dumbbells",
+                    "media": "assets/Tuck Dips on Dumbbells.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Chest; Triceps; Upper Body"
+                }
+            ]
+        }
+    ],
+    "D2": [
+        {
+            "bloque": "1. Movilidad",
+            "ejercicios": [
+                {
+                    "name": "Adductor Side bends",
+                    "media": "assets/Adductor Side bends.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Mobility"
+                },
+                {
+                    "name": "Assisted Cossack Squat",
+                    "media": "assets/Assisted Cossack Squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes; Mobility"
+                },
+                {
+                    "name": "Deep prying squats",
+                    "media": "assets/Deep prying squats.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Mobility; Legs"
+                },
+                {
+                    "name": "Squat Mobility Drill",
+                    "media": "assets/Squat Mobility Drill.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Mobility; Legs"
+                },
+                {
+                    "name": "Suitcase toe squats",
+                    "media": "assets/Suitcase toe squats.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Ankles"
+                },
+                {
+                    "name": "Toe Squats",
+                    "media": "assets/Toe Squats.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Quads; Ankles; Legs"
+                }
+            ]
+        },
+        {
+            "bloque": "2. Fuerza Principal",
+            "ejercicios": [
+                {
+                    "name": "Bar Muscle-Up",
+                    "media": "assets/Bar Muscle-Up.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Back; Upper Body"
+                },
+                {
+                    "name": "Box Squat",
+                    "media": "assets/Box Squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Bulgarians Split Squat",
+                    "media": "assets/Bulgarians Split Squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes; Quads"
+                },
+                {
+                    "name": "Clean Lateral Lunge",
+                    "media": "assets/Clean Lateral Lunge.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Legs"
+                },
+                {
+                    "name": "Clean Squat",
+                    "media": "assets/Clean Squat.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Legs"
+                },
+                {
+                    "name": "Double Kettlebell Kickstand Squat",
+                    "media": "assets/Double Kettlebell Kickstand Squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Dual Bell Reverse Lunge",
+                    "media": "assets/Dual Bell Reverse Lunge.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Elevated Sumo Squat",
+                    "media": "assets/Elevated Sumo Squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Feet Elevated Squat",
+                    "media": "assets/Feet Elevated Squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Forward Lunges with Rotation",
+                    "media": "assets/Forward Lunges with Rotation.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Core"
+                },
+                {
+                    "name": "Forward lunges",
+                    "media": "assets/Forward lunges.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Front Foot Elevated Split squats",
+                    "media": "assets/Front Foot Elevated Split squats.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                                {
+                    "name": "Goblet Kickstand Squat",
+                    "media": "assets/Goblet Kickstand Squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Gorilla Rows",
+                    "media": "assets/Gorilla Rows.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Back; Upper Body"
+                },
+                {
+                    "name": "Kettlebell Clean Reverse Step",
+                    "media": "assets/Kettlebell Clean Reverse Step.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Legs"
+                },
+                {
+                    "name": "Kettlebell Dual Row",
+                    "media": "assets/Kettlebell Dual Row.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Back; Upper Body"
+                },
+                {
+                    "name": "Kettlebell Swing + Snatch to Reverse Lunge",
+                    "media": "assets/Kettlebell Swing + Snatch to Reverse Lunge.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Legs; Glutes"
+                },
+                {
+                    "name": "Kettlebell Swing Goblet Squat",
+                    "media": "assets/Kettlebell Swing Goblet Squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Legs; Glutes"
+                },
+                {
+                    "name": "Loaded Jump lunges",
+                    "media": "assets/Loaded Jump lunges.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Full Body"
+                },
+                {
+                    "name": "Loaded kneel to stand",
+                    "media": "assets/Loaded kneel to stand.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Racked Step up reverse lunge",
+                    "media": "assets/Racked Step up reverse lunge.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Rear Foot Elevated Split squat",
+                    "media": "assets/Rear Foot Elevated Split squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Reverse Grip Pull Ups",
+                    "media": "assets/Reverse Grip Pull Ups.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Back; Upper Body; Biceps"
+                },
+                {
+                    "name": "Rotational Bulgarian Split Squat",
+                    "media": "assets/Rotational Bulgarian Split Squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes; Core"
+                },
+                {
+                    "name": "Rotational Split Squat",
+                    "media": "assets/Rotational Split Squat.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Core"
+                },
+                {
+                    "name": "Single arm row",
+                    "media": "assets/Single arm row.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Back; Upper Body"
+                },
+                {
+                    "name": "Slow Eccentric goblet Squats",
+                    "media": "assets/Slow Eccentric goblet Squats.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Split Squat",
+                    "media": "assets/Split Squat.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Split Stance Clean Reverse Lunge",
+                    "media": "assets/Split Stance Clean Reverse Lunge.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Legs"
+                },
+                {
+                    "name": "Suitcase Split Squat",
+                    "media": "assets/Suitcase Split Squat.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Core"
+                },
+                {
+                    "name": "Suitcase Squats",
+                    "media": "assets/Suitcase Squats.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Core"
+                },
+                {
+                    "name": "Swing Clean Squat",
+                    "media": "assets/Swing Clean Squat.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Legs; Glutes"
+                },
+                {
+                    "name": "Walking Lunges with Kettlebell",
+                    "media": "assets/Walking Lunges with Kettlebell.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Walking lunges",
+                    "media": "assets/Walking lunges.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Weighted towel pull ups",
+                    "media": "assets/Weighted towel pull ups.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Back; Upper Body; Biceps"
+                }
+            ]
+        },
+        {
+            "bloque": "3. Accesorios",
+            "ejercicios": [
+                {
+                    "name": "Band Leg Extension",
+                    "media": "assets/Band Leg Extension.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Quads; Legs"
+                },
+                {
+                    "name": "Band Pull Apart",
+                    "media": "assets/Band Pull Apart.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Upper Body"
+                },
+                {
+                    "name": "Barbell Slant board Calve raises",
+                    "media": "assets/Barbell Slant board Calve raises.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Calves; Legs"
+                },
+                {
+                    "name": "Curtsy Lunge",
+                    "media": "assets/Curtsy Lunge.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Glutes; Legs"
+                },
+                {
+                    "name": "Curtsy squat",
+                    "media": "assets/Curtsy squat.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Half Kneeling Upright Row",
+                    "media": "assets/Half Kneeling Upright Row.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Shoulders; Back"
+                },
+                {
+                    "name": "Kettlebell Tempo Sissy squat",
+                    "media": "assets/Kettlebell Tempo Sissy squat.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Quads; Legs"
+                },
+                {
+                    "name": "Kettlebell Upright Row",
+                    "media": "assets/Kettlebell Upright Row.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Upper Body"
+                },
+                {
+                    "name": "Kneeling Upright Row",
+                    "media": "assets/Kneeling Upright Row.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Back"
+                },
+                {
+                    "name": "Lateral banded leg lifts",
+                    "media": "assets/Lateral banded leg lifts.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Glutes; Legs"
+                },
+                {
+                    "name": "Lateral Lunges",
+                    "media": "assets/Lateral Lunges.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Reverse Nordic Curls",
+                    "media": "assets/Reverse Nordic Curls.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Quads; Legs"
+                },
+                {
+                    "name": "Seated Leg Extension",
+                    "media": "assets/Seated Leg Extension.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Quads; Legs"
+                },
+                {
+                    "name": "Single leg Step Down",
+                    "media": "assets/Single leg Step Down.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Glutes"
+                },
+                {
+                    "name": "Sissy Squats",
+                    "media": "assets/Sissy Squats.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Quads; Legs"
+                },
+                {
+                    "name": "Upright row",
+                    "media": "assets/Upright row.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Upper Body"
+                }
+            ]
+        }
+    ],
+        "D3": [
+        {
+            "bloque": "1. Movilidad",
+            "ejercicios": [
+                {
+                    "name": "3 Point Rotations",
+                    "media": "assets/3 Point Rotations.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Mobility; Core"
+                },
+                {
+                    "name": "90_90 Windmill",
+                    "media": "assets/90_90 Windmill.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Mobility; Core; Shoulders"
+                },
+                {
+                    "name": "Around the worlds",
+                    "media": "assets/Around the worlds.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Mobility"
+                },
+                {
+                    "name": "Dual Kneeling Windmill",
+                    "media": "assets/Dual Kneeling Windmill.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Mobility; Shoulders; Core"
+                },
+                {
+                    "name": "Half Kneeling OH Rotation",
+                    "media": "assets/Half Kneeling OH Rotation.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Mobility; Shoulders; Core"
+                },
+                {
+                    "name": "Half kneeling press windmill",
+                    "media": "assets/Half kneeling press windmill.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Mobility; Shoulders"
+                },
+                {
+                    "name": "Halo Squat",
+                    "media": "assets/Halo Squat.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Mobility; Shoulders"
+                },
+                {
+                    "name": "Shin-box Rotation",
+                    "media": "assets/Shin-box Rotation.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Mobility; Hips"
+                },
+                {
+                    "name": "SumoStance Windmill",
+                    "media": "assets/SumoStance Windmill.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Mobility; Core; Full Body"
+                },
+                {
+                    "name": "Turkish get up",
+                    "media": "assets/Turkish get up.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 15,
+                    "series": 2,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Core; Shoulders; Mobility"
+                }
+            ]
+        },
+        {
+            "bloque": "2. Fuerza Principal",
+            "ejercicios": [
+                {
+                    "name": "Clean Squat Press",
+                    "media": "assets/Clean Squat Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Legs; Shoulders"
+                },
+                {
+                    "name": "Clean Thrusters",
+                    "media": "assets/Clean Thrusters.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Legs; Shoulders"
+                },
+                {
+                    "name": "Cross body Swings",
+                    "media": "assets/Cross body Swings.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Core"
+                },
+                {
+                    "name": "Dumbbell Thrusters",
+                    "media": "assets/Dumbbell Thrusters.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Shoulders; Legs"
+                },
+                {
+                    "name": "Get Up Press",
+                    "media": "assets/Get Up Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Shoulders; Core"
+                },
+                {
+                    "name": "Kettlebell Clean Press",
+                    "media": "assets/Kettlebell Clean Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Shoulders"
+                },
+                {
+                    "name": "Kettlebell Clean",
+                    "media": "assets/Kettlebell Clean.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body"
+                },
+                {
+                    "name": "Kettlebell Swing to Clean with Rotation",
+                    "media": "assets/Kettlebell Swing to Clean with Rotation.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Full Body; Core; Glutes"
+                },
+                {
+                    "name": "Reverse Lunge Press",
+                    "media": "assets/Reverse Lunge Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": true,
+                    "muscleGroup": "Legs; Shoulders; Full Body"
+                },
+                {
+                    "name": "Squat Press",
+                    "media": "assets/Squat Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Legs; Shoulders"
+                }
+            ]
+        },
+        {
+            "bloque": "3. Accesorios",
+            "ejercicios": [
+                {
+                    "name": "Double Kettlebell Strict Curl",
+                    "media": "assets/Double Kettlebell Strict Curl.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Biceps; Upper Body"
+                },
+                {
+                    "name": "Half Kneeling triceps",
+                    "media": "assets/Half Kneeling triceps.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Triceps; Upper Body"
+                },
+                {
+                    "name": "Iso Curls",
+                    "media": "assets/Iso Curls.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Biceps; Upper Body"
+                }
+            ]
+        },
+        {
+            "bloque": "4. Core",
+            "ejercicios": [
+                {
+                    "name": "6 Inch Pull Over",
+                    "media": "assets/6 Inch Pull Over.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Core"
+                },
+                {
+                    "name": "Dual Bells Loaded Marching",
+                    "media": "assets/Dual Bells Loaded Marching.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Core; Full Body"
+                },
+                {
+                    "name": "Kettlebell Drags",
+                    "media": "assets/Kettlebell Drags.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Core; Tension; Full Body"
+                },
+                {
+                    "name": "Kettlebell Shoulder Taps",
+                    "media": "assets/Kettlebell Shoulder Taps.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Core; Shoulders"
+                },
+                {
+                    "name": "Landmine Rotation",
+                    "media": "assets/Landmine Rotation.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Core; Full Body"
+                },
+                {
+                    "name": "Leg Lifts",
+                    "media": "assets/Leg Lifts.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Core; Legs"
+                },
+                {
+                    "name": "Plank Rows",
+                    "media": "assets/Plank Rows.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Back; Core; Upper Body"
+                },
+                {
+                    "name": "Racked ISO Hold",
+                    "media": "assets/Racked ISO Hold.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Core; Full Body; Tension"
+                },
+                {
+                    "name": "Rotating Renegade row into side plank",
+                    "media": "assets/Rotating Renegade row into side plank.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Core; Back; Full Body"
+                },
+                {
+                    "name": "SA Carry",
+                    "media": "assets/SA Carry.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Core; Full Body; Tension"
+                },
+                {
+                    "name": "Seated Leg lifts",
+                    "media": "assets/Seated Leg lifts.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Core; Legs"
+                },
+                {
+                    "name": "Side bends",
+                    "media": "assets/Side bends.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Core"
+                },
+                {
+                    "name": "Side Plank Press - Core",
+                    "media": "assets/Side Plank Press.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Core; Shoulders"
+                },
+                {
+                    "name": "Single Arm Sit up",
+                    "media": "assets/Single Arm Sit up.webp",
+                    "type": "image",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Core"
+                },
+                {
+                    "name": "Slider core work",
+                    "media": "assets/Slider core work.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Core"
+                },
+                {
+                    "name": "Split-Stance Kettlebell Chop & Lift",
+                    "media": "assets/Split-Stance Kettlebell Chop & Lift.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 30,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": true,
+                    "muscleGroup": "Core; Full Body"
+                }
+            ]
+        }
+    ]
+}

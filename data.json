@@ -104,7 +104,7 @@
                     "rest": 60,
                     "series": 3,
                     "repetitions": 8,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Shoulders; Upper Body"
                 },
                 {
@@ -148,7 +148,7 @@
                     "rest": 60,
                     "series": 3,
                     "repetitions": 8,
-                    "unilateral": true,
+                    "unilateral": false,
                     "muscleGroup": "Shoulders; Chest; Upper Body"
                 },
                 {
@@ -203,18 +203,7 @@
                     "rest": 60,
                     "series": 3,
                     "repetitions": 8,
-                    "unilateral": false,
-                    "muscleGroup": "Shoulders; Upper Body"
-                },
-                {
-                    "name": "Seated Wall Z Press",
-                    "media": "assets/Seated Wall Z Press.webp",
-                    "type": "image",
-                    "duration": 40,
-                    "rest": 60,
-                    "series": 3,
-                    "repetitions": 8,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Shoulders; Upper Body"
                 },
                 {
@@ -373,7 +362,7 @@
                     "rest": 45,
                     "series": 3,
                     "repetitions": 10,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Full Body; Glutes"
                 },
                 {
@@ -432,14 +421,14 @@
                     "muscleGroup": "Full Body; Shoulders"
                 },
                 {
-                    "name": "Lateral Raises - Shoulders",
+                    "name": "Lateral Raises",
                     "media": "assets/Lateral Raises - Shoulders.webp",
                     "type": "image",
                     "duration": 35,
                     "rest": 45,
                     "series": 3,
                     "repetitions": 10,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Shoulders; Upper Body"
                 },
                 {
@@ -951,7 +940,7 @@
                     "rest": 45,
                     "series": 3,
                     "repetitions": 10,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Quads; Legs"
                 },
                 {
@@ -1039,7 +1028,7 @@
                     "rest": 45,
                     "series": 3,
                     "repetitions": 10,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Shoulders; Back"
                 },
                 {
@@ -1083,7 +1072,7 @@
                     "rest": 45,
                     "series": 3,
                     "repetitions": 10,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Quads; Legs"
                 },
                 {
@@ -1156,7 +1145,7 @@
                     "rest": 15,
                     "series": 2,
                     "repetitions": 8,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Shoulders; Mobility"
                 },
                 {
@@ -1304,7 +1293,7 @@
                     "rest": 60,
                     "series": 3,
                     "repetitions": 8,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Full Body; Shoulders"
                 },
                 {
@@ -1348,7 +1337,7 @@
                     "rest": 60,
                     "series": 3,
                     "repetitions": 8,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Full Body; Legs; Shoulders"
                 }
             ]
@@ -1424,7 +1413,7 @@
                     "rest": 30,
                     "series": 3,
                     "repetitions": 10,
-                    "unilateral": true,
+                    "unilateral": false,
                     "muscleGroup": "Core; Tension; Full Body"
                 },
                 {
@@ -1512,7 +1501,7 @@
                     "rest": 30,
                     "series": 3,
                     "repetitions": 10,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Core; Legs"
                 },
                 {
@@ -1556,7 +1545,7 @@
                     "rest": 30,
                     "series": 3,
                     "repetitions": 10,
-                    "unilateral": false,
+                    "unilateral": true,
                     "muscleGroup": "Core"
                 },
                 {

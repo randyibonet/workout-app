@@ -376,6 +376,21 @@ h1 em {
   background: #fff9e6;
 }
 
+.player-screen.preparing {
+  --orange: #5686a2;
+  --orange-dark: #416b83;
+  background: #f0f6f9;
+}
+
+.preparing .timer-ring > div {
+  background: #f0f6f9;
+}
+
+.preparing .set-badge {
+  background: #5686a2;
+  color: white;
+}
+
 .player-header {
   height: 74px;
   padding: 0 clamp(20px, 5vw, 72px);
@@ -634,6 +649,11 @@ h1 em {
 
 .switching .timer-ring>div {
   background: #fff9e6;
+}
+
+.preparing .media-card video,
+.preparing .media-card img {
+  opacity: 0.65;
 }
 
 .timer-ring span,

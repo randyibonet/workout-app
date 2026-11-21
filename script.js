@@ -5,6 +5,7 @@ const state = {
   exerciseIndex: 0,
   set: 1,
   phase: "work",
+  phase: "ready",
   side: 1,
   seconds: 0,
   running: false,
@@ -67,6 +68,20 @@ function hablar(texto) {
     window.speechSynthesis.speak(mensaje);
   }
 }
+
+const SIDE_SWITCH_SECONDS = 10;
+const PREPARE_SECONDS = 3;
+
+function prepareWork() {
+  state.phase = "ready";
+  state.seconds = PREPARE_SECONDS;
+  hablar("Prepárate");
+}
+
+function startWork() {
+  state.phase = "work";
+  state.seconds = currentExercise().seconds;
+}
 // ==========================================
 
 function showScreen(name) {
@@ -80,7 +95,7 @@ function shuffle(items) {
 }
 
 function selectExercises(dayData) {
-  const amounts = { "1. Movilidad": 2, "2. Fuerza Principal": 4, "3. Accesorios": 3, "4. Core": 4 };
+  const amounts = { "1. Movilidad": 2, "2. Fuerza Principal": 4, "3. Accesorios": 3, "4. Core": 3 };
   let selected = [];
 
   dayData.forEach(bloque => {
@@ -172,14 +187,16 @@ function renderPreparation() {
 
 function beginWorkout() {
   showScreen("player");
-  
+
   mantenerPantallaEncendida();
-  hablar("A trabajar");
-  
+
   state.running = true;
-  beep(650);
+
+  prepareWork();
+
   clearInterval(state.interval);
   state.interval = setInterval(tick, 1000);
+
   renderPlayer();
 }
 
@@ -189,46 +206,72 @@ function currentExercise() {
 
 function renderPlayer() {
   const exercise = currentExercise();
+
   const resting = state.phase === "rest";
   const switching = state.phase === "switch";
-  
+  const preparing = state.phase === "ready";
+
+  screens.player.classList.toggle("preparing", preparing);
+
   let duration;
+
   if (resting) duration = exercise.rest;
-  else if (switching) duration = 5;
+  else if (switching) duration = SIDE_SWITCH_SECONDS;
+  else if (preparing) duration = PREPARE_SECONDS;
   else duration = exercise.seconds;
-  
-  const progress = duration ? ((duration - state.seconds) / duration) * 360 : 0;
+
+  const progress = duration
+    ? ((duration - state.seconds) / duration) * 360
+    : 0;
 
   screens.player.classList.toggle("resting", resting);
   screens.player.classList.toggle("switching", switching);
   
   let titleText = exercise.name;
   let sideText = "";
-  if (exercise.unilateral && state.phase === "work") {
-    sideText = state.side === 1 ? " (👈 Lado 1)" : " (Lado 2 👉)";
+
+  if (preparing) {
+    titleText = `Prepárate: ${exercise.name}`;
+  } else if (exercise.unilateral && state.phase === "work") {
+    sideText = state.side === 1
+      ? " (👈 Lado 1)"
+      : " (Lado 2 👉)";
   }
-  
+
   if (resting) {
-    if (state.set < exercise.sets) {
-      titleText = `Prepárate: ${exercise.name}`;
-    } else if (state.exerciseIndex < state.session.length - 1) {
-      titleText = `Prepárate: ${state.session[state.exerciseIndex + 1].name}`;
-    } else {
-      titleText = "Último esfuerzo";
-    }
+    titleText = `Descanso`;
   } else if (switching) {
     titleText = "Cambia de lado";
   }
 
-  $("#block-name").textContent = resting ? "Respira y recupera" : (switching ? "Cambio de lado" : (blockNames[exercise.block] || exercise.block));
+  $("#block-name").textContent =
+    resting ? "Recuperación" :
+    switching ? "Cambio de lado" :
+    preparing ? "Preparación" :
+    (blockNames[exercise.block] || exercise.block);
+
   $("#exercise-name").textContent = titleText + sideText;
+
   $("#exercise-number").textContent = state.exerciseIndex + 1;
   $("#exercise-total").textContent = state.session.length;
-  
-  $("#timer-label").textContent = resting ? "Descanso" : (switching ? "Cambio" : "Tiempo");
+
+  $("#timer-label").textContent =
+    resting ? "Descanso" :
+    switching ? "Cambio" :
+    preparing ? "Prepárate" :
+    "Tiempo";
+
   $("#seconds").textContent = state.seconds;
-  $("#reps").textContent = switching ? "Prepara el otro lado" : exercise.reps;
-  $("#details").textContent = switching ? "5 segundos" : `${exercise.sets} series · ${exercise.rest}s de descanso`;
+
+  $("#reps").textContent =
+    switching ? "Prepara el otro lado" :
+    preparing ? "Comenzamos en..." :
+    exercise.reps;
+
+  $("#details").textContent =
+    switching ? `${SIDE_SWITCH_SECONDS} segundos` :
+    preparing ? "3 segundos" :
+    `${exercise.sets} series · ${exercise.rest}s de descanso`;
   
   $("#timer-ring").style.setProperty("--progress", `${progress}deg`);
   $("#previous-button").disabled = state.exerciseIndex === 0;
@@ -251,7 +294,7 @@ function renderPlayer() {
   $("#current-focus").textContent = state.day.subtitle;
   
   renderNext(resting);
-  renderMediaUI(exercise, resting || switching);
+  renderMediaUI(exercise, resting || switching || preparing);
 }
 
 function renderNext(resting) {
@@ -378,64 +421,91 @@ function tick() {
 
 function advancePhase() {
   const exercise = currentExercise();
-  
+
+  // Termina el intervalo de preparación
+  if (state.phase === "ready") {
+    startWork();
+    beep(650);
+    hablar("A trabajar");
+    renderPlayer();
+    return;
+  }
+
+  // Termina el trabajo del primer lado
   if (state.phase === "work") {
     if (exercise.unilateral && state.side === 1) {
       state.phase = "switch";
-      state.seconds = 5;
+      state.seconds = SIDE_SWITCH_SECONDS;
+
       beep(600);
       hablar("Cambia de lado");
+
     } else {
-      if (state.set < exercise.sets) {
-        state.phase = "rest";
-        state.seconds = exercise.rest;
-        beep(760);
-        hablar("Descanso");
-      } else {
-        if (state.exerciseIndex < state.session.length - 1) {
-          state.exerciseIndex += 1;
-          state.set = 1;
-          state.phase = "work";
-          state.seconds = currentExercise().seconds;
-          state.side = currentExercise().unilateral ? 1 : 0;
-          beep(760);
-          hablar("A trabajar");
-        } else {
-          finishWorkout();
-          return;
-        }
+      // Terminó el lado 2 o el ejercicio bilateral.
+      // Si es la última actividad, finalizar.
+      const isLastExercise =
+        state.exerciseIndex === state.session.length - 1;
+
+      const isLastSet =
+        state.set === exercise.sets;
+
+      if (isLastExercise && isLastSet) {
+        finishWorkout();
+        return;
       }
+
+      // Siempre hay descanso después de completar una serie.
+      state.phase = "rest";
+      state.seconds = exercise.rest;
+
+      beep(760);
+      hablar("Descanso");
     }
-  } else if (state.phase === "switch") {
-    state.phase = "work";
-    state.seconds = exercise.seconds;
-    state.side = 2;
-    beep(650);
-    hablar("A trabajar");
-  } else if (state.phase === "rest") {
-    state.set += 1;
-    state.phase = "work";
-    state.seconds = exercise.seconds;
-    state.side = exercise.unilateral ? 1 : 0;
-    beep(650);
-    hablar("A trabajar");
   }
-  
+
+  // Termina el cambio de lado
+  else if (state.phase === "switch") {
+    state.side = 2;
+    prepareWork();
+  }
+
+  // Termina el descanso
+  else if (state.phase === "rest") {
+    if (state.set < exercise.sets) {
+      // Repetir el mismo ejercicio
+      state.set += 1;
+      state.side = exercise.unilateral ? 1 : 0;
+
+    } else {
+      // Pasar al siguiente ejercicio
+      state.exerciseIndex += 1;
+      state.set = 1;
+
+      state.side = currentExercise().unilateral ? 1 : 0;
+    }
+
+    prepareWork();
+  }
+
   renderPlayer();
 }
 
 function moveExercise(direction) {
   const next = state.exerciseIndex + direction;
+
   if (next < 0) return;
+
   if (next >= state.session.length) {
     finishWorkout();
     return;
   }
+
   state.exerciseIndex = next;
   state.set = 1;
-  state.phase = "work";
-  state.seconds = currentExercise().seconds;
   state.side = currentExercise().unilateral ? 1 : 0;
+
+  prepareWork();
+
   renderPlayer();
 }
 
@@ -517,28 +587,36 @@ $("#previous-button").addEventListener("click", () => moveExercise(-1));
 // NUEVA LÓGICA: El botón Siguiente ahora evalúa si estás en descanso o trabajando
 $("#next-button").addEventListener("click", () => {
   if (state.phase === "rest") {
-    // Saltar descanso: avanzar a la siguiente serie del mismo ejercicio
     const exercise = currentExercise();
-    state.set += 1;
-    state.phase = "work";
-    state.seconds = exercise.seconds;
-    state.side = exercise.unilateral ? 1 : 0;
-    beep(650);
-    hablar("A trabajar");
-    renderPlayer();
+
+    if (state.set < exercise.sets) {
+      state.set += 1;
+      state.side = exercise.unilateral ? 1 : 0;
+    } else {
+      if (state.exerciseIndex >= state.session.length - 1) {
+        finishWorkout();
+        return;
+      }
+
+      state.exerciseIndex += 1;
+      state.set = 1;
+      state.side = currentExercise().unilateral ? 1 : 0;
+    }
+
+    prepareWork();
+
   } else if (state.phase === "switch") {
-    // Saltar cambio de lado
-    const exercise = currentExercise();
-    state.phase = "work";
-    state.seconds = exercise.seconds;
     state.side = 2;
-    beep(650);
-    hablar("A trabajar");
-    renderPlayer();
+    prepareWork();
+
+  } else if (state.phase === "ready") {
+    startWork();
+
   } else {
-    // Si estamos trabajando, avanzar al siguiente ejercicio
     moveExercise(1);
   }
+
+  renderPlayer();
 });
 
 $("#end-button").addEventListener("click", goHome);

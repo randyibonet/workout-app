@@ -748,7 +748,7 @@
                     "rest": 60,
                     "series": 3,
                     "repetitions": 8,
-                    "unilateral": true,
+                    "unilateral": false,
                     "muscleGroup": "Legs; Full Body"
                 },
                 {

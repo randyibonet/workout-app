@@ -523,7 +523,7 @@
                     "rest": 15,
                     "series": 2,
                     "repetitions": 8,
-                    "unilateral": true,
+                    "unilateral": false,
                     "muscleGroup": "Legs; Ankles"
                 },
                 {

@@ -1054,3 +1054,29 @@ h1 em {
     display: none;
   }
 }
+
+/* =========================================
+   PWA / MODO INSTALADO
+   ========================================= */
+
+/* Alto real de la ventana en moviles y tablets (sin barras del navegador). */
+@supports (min-height: 100dvh) {
+  .screen {
+    min-height: 100dvh;
+  }
+}
+
+/* Sin zoom accidental al tocar dos veces seguido los controles. */
+button {
+  touch-action: manipulation;
+}
+
+/* Solo cuando la app se abre instalada (no en el navegador). */
+@media (display-mode: standalone) {
+  body {
+    overscroll-behavior-y: contain;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+  }
+}

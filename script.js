@@ -624,6 +624,29 @@ $("#home-button").addEventListener("click", goHome);
 $("#prep-back-button").addEventListener("click", goHome);
 $("#begin-button").addEventListener("click", beginWorkout);
 
+// ==========================================
+// PWA: registro del service worker
+// ==========================================
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", async () => {
+    try {
+      const registration = await navigator.serviceWorker.register("sw.js", {
+        scope: "./",
+      });
+      console.log("Service worker activo en:", registration.scope);
+
+      // Al volver a la app, comprobamos si hay una version nueva publicada.
+      document.addEventListener("visibilitychange", () => {
+        if (document.visibilityState === "visible") {
+          registration.update().catch(() => {});
+        }
+      });
+    } catch (error) {
+      console.warn("No se pudo registrar el service worker:", error);
+    }
+  });
+}
+
 fetch("data.json")
   .then((response) => {
     if (!response.ok) throw new Error("No se pudo leer data.json");

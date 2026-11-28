@@ -64,6 +64,17 @@
                     "muscleGroup": "Shoulders; Full Body"
                 },
                 {
+                    "name": "Clean Thrusters",
+                    "media": "assets/Clean Thrusters.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Legs; Shoulders"
+                },
+                {
                     "name": "Crossbody Split Stance Deadlift",
                     "media": "assets/Crossbody Split Stance Deadlift.webp",
                     "type": "image",
@@ -117,6 +128,17 @@
                     "repetitions": 8,
                     "unilateral": false,
                     "muscleGroup": "Hamstrings; Glutes"
+                },
+                {
+                    "name": "Dumbbell Thrusters",
+                    "media": "assets/Dumbbell Thrusters.mp4",
+                    "type": "video",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Shoulders; Legs"
                 },
                 {
                     "name": "Feet Elevated Depth Push Ups",
@@ -598,6 +620,17 @@
                     "muscleGroup": "Full Body; Legs"
                 },
                 {
+                    "name": "Clean Squat Press",
+                    "media": "assets/Clean Squat Press.webp",
+                    "type": "image",
+                    "duration": 40,
+                    "rest": 60,
+                    "series": 3,
+                    "repetitions": 8,
+                    "unilateral": false,
+                    "muscleGroup": "Full Body; Legs; Shoulders"
+                },
+                {
                     "name": "Double Kettlebell Kickstand Squat",
                     "media": "assets/Double Kettlebell Kickstand Squat.mp4",
                     "type": "video",
@@ -660,7 +693,7 @@
                     "rest": 60,
                     "series": 3,
                     "repetitions": 8,
-                    "unilateral": true,
+                    "unilateral": false,
                     "muscleGroup": "Legs; Glutes"
                 },
                 {
@@ -674,7 +707,7 @@
                     "unilateral": true,
                     "muscleGroup": "Legs; Glutes"
                 },
-                                {
+                {
                     "name": "Goblet Kickstand Squat",
                     "media": "assets/Goblet Kickstand Squat.mp4",
                     "type": "video",
@@ -814,7 +847,7 @@
                     "rest": 60,
                     "series": 3,
                     "repetitions": 8,
-                    "unilateral": true,
+                    "unilateral": false,
                     "muscleGroup": "Legs; Core"
                 },
                 {
@@ -880,7 +913,7 @@
                     "rest": 60,
                     "series": 3,
                     "repetitions": 8,
-                    "unilateral": true,
+                    "unilateral": false,
                     "muscleGroup": "Legs; Core"
                 },
                 {
@@ -913,7 +946,7 @@
                     "rest": 60,
                     "series": 3,
                     "repetitions": 8,
-                    "unilateral": true,
+                    "unilateral": false,
                     "muscleGroup": "Legs; Glutes"
                 },
                 {
@@ -932,6 +965,17 @@
         {
             "bloque": "3. Accesorios",
             "ejercicios": [
+                {
+                    "name": "Band Face Pull",
+                    "media": "assets/Band Face Pull.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Upper Body"
+                },
                 {
                     "name": "Band Leg Extension",
                     "media": "assets/Band Leg Extension.mp4",
@@ -997,6 +1041,17 @@
                     "repetitions": 10,
                     "unilateral": true,
                     "muscleGroup": "Shoulders; Back"
+                },
+                {
+                    "name": "Kettlebell Face Pull",
+                    "media": "assets/Kettlebell Face Pull.mp4",
+                    "type": "video",
+                    "duration": 35,
+                    "rest": 45,
+                    "series": 3,
+                    "repetitions": 10,
+                    "unilateral": false,
+                    "muscleGroup": "Shoulders; Upper Body"
                 },
                 {
                     "name": "Kettlebell Tempo Sissy squat",
@@ -1231,28 +1286,6 @@
             "bloque": "2. Fuerza Principal",
             "ejercicios": [
                 {
-                    "name": "Clean Squat Press",
-                    "media": "assets/Clean Squat Press.webp",
-                    "type": "image",
-                    "duration": 40,
-                    "rest": 60,
-                    "series": 3,
-                    "repetitions": 8,
-                    "unilateral": false,
-                    "muscleGroup": "Full Body; Legs; Shoulders"
-                },
-                {
-                    "name": "Clean Thrusters",
-                    "media": "assets/Clean Thrusters.webp",
-                    "type": "image",
-                    "duration": 40,
-                    "rest": 60,
-                    "series": 3,
-                    "repetitions": 8,
-                    "unilateral": false,
-                    "muscleGroup": "Full Body; Legs; Shoulders"
-                },
-                {
                     "name": "Cross body Swings",
                     "media": "assets/Cross body Swings.webp",
                     "type": "image",
@@ -1262,17 +1295,6 @@
                     "repetitions": 8,
                     "unilateral": true,
                     "muscleGroup": "Full Body; Core"
-                },
-                {
-                    "name": "Dumbbell Thrusters",
-                    "media": "assets/Dumbbell Thrusters.mp4",
-                    "type": "video",
-                    "duration": 40,
-                    "rest": 60,
-                    "series": 3,
-                    "repetitions": 8,
-                    "unilateral": false,
-                    "muscleGroup": "Full Body; Shoulders; Legs"
                 },
                 {
                     "name": "Get Up Press",
@@ -1479,7 +1501,7 @@
                     "rest": 30,
                     "series": 3,
                     "repetitions": 10,
-                    "unilateral": true,
+                    "unilateral": false,
                     "muscleGroup": "Core; Back; Full Body"
                 },
                 {

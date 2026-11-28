@@ -95,14 +95,41 @@ function shuffle(items) {
 }
 
 function selectExercises(dayData) {
-  const amounts = { "1. Movilidad": 2, "2. Fuerza Principal": 4, "3. Accesorios": 3, "4. Core": 3 };
+  const amounts = { "1. Movilidad": 2, "2. Fuerza Principal": 4, "3. Accesorios": 3, "4. Core": 2 };
   let selected = [];
 
   dayData.forEach(bloque => {
     let limite = amounts[bloque.bloque] || 2;
-    let shuffled = shuffle([...bloque.ejercicios]).slice(0, limite);
+    let pool = [...bloque.ejercicios]; // Copia del bloque
+    
+    let selectedForBlock = [];
+    let usedPrimaryMuscles = new Set(); // Para rastrear los músculos ya elegidos
+    
+    // 1. Mezclamos el pool de ejercicios
+    let shuffledPool = shuffle(pool);
 
-    shuffled.forEach(ej => {
+    // 2. Pase 1: Intentamos elegir ejercicios que trabajen músculos diferentes
+    for (let i = 0; i < shuffledPool.length && selectedForBlock.length < limite; i++) {
+      let ej = shuffledPool[i];
+      // Extraemos el primer músculo de la lista (ej: "Chest; Triceps" -> "Chest")
+      let primaryMuscle = (ej.muscleGroup || "").split(";")[0].trim();
+
+      // Si este músculo principal no ha sido elegido aún, lo añadimos
+      if (!usedPrimaryMuscles.has(primaryMuscle)) {
+        selectedForBlock.push(ej);
+        usedPrimaryMuscles.add(primaryMuscle);
+      }
+    }
+
+    // 3. Pase 2: Si no llegamos al límite (porque había pocos músculos distintos), 
+    // rellenamos con el resto de ejercicios aleatorios que quedaron.
+    if (selectedForBlock.length < limite) {
+      let remainingExercises = shuffledPool.filter(e => !selectedForBlock.includes(e));
+      selectedForBlock = selectedForBlock.concat(remainingExercises.slice(0, limite - selectedForBlock.length));
+    }
+
+    // 4. Mapeamos los ejercicios elegidos al formato final
+    selectedForBlock.forEach(ej => {
       selected.push({
         name: ej.name,
         block: bloque.bloque,
@@ -112,7 +139,8 @@ function selectExercises(dayData) {
         reps: ej.unilateral ? `${ej.repetitions} reps · Por lado` : `${ej.repetitions} reps`,
         media: ej.media.replace("assets/", ""), 
         type: ej.type,
-        unilateral: ej.unilateral
+        unilateral: ej.unilateral,
+        muscleGroup: ej.muscleGroup // Lo guardamos por si lo necesitas en el futuro
       });
     });
   });
